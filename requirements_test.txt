@@ -1,0 +1,6 @@
+pytest-homeassistant-custom-component
+mock
+pytest-asyncio
+packaging
+mashumaro
+orjson

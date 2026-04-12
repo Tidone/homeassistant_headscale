@@ -1,0 +1,48 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Service is already configured",
+            "reauth_successful": "Re-authentication was successful"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "api_key": "API key"
+                },
+                "description": "Headscale API access tokens are typically valid for 90-days. You can create a fresh Headscale API access token on your server."
+            },
+            "user": {
+                "data": {
+                    "api_key": "API key",
+                    "server": "Headscale server"
+                },
+                "description": "This integration monitors your Headscale network, it **DOES NOT** make your Home Assistant accessible via Tailscale VPN. \n\nTo authenticate with the Headscale server you'll need to create an API access token on your server."
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "client": {
+                "name": "Client"
+            },
+            "online": {
+                "name": "Online"
+            }
+        },
+        "sensor": {
+            "expires": {
+                "name": "Expires"
+            },
+            "ip": {
+                "name": "IP address"
+            },
+            "last_seen": {
+                "name": "Last seen"
+            }
+        }
+    }
+}

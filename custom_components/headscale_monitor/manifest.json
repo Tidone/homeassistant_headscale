@@ -1,0 +1,12 @@
+{
+  "domain": "headscale_monitor",
+  "name": "Headscale Monitor",
+  "codeowners": ["@Tidone"],
+  "config_flow": true,
+  "documentation": "https://github.com/Tidone/homeassistant_headscale",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Tidone/homeassistant_headscale/issues",
+  "requirements": ["mashumaro", "orjson"],
+  "version": "1.0.0"
+}
