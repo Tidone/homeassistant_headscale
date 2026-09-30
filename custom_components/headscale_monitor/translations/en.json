@@ -42,6 +42,9 @@
             },
             "last_seen": {
                 "name": "Last seen"
+            },
+            "user": {
+                "name": "User"
             }
         }
     }

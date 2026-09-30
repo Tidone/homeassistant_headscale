@@ -3,6 +3,9 @@
     "sensor": {
       "ip": {
         "default": "mdi:ip-network"
+      },
+      "user": {
+        "default": "mdi:account"
       }
     }
   }
