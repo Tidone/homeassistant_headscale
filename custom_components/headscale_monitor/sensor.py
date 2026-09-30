@@ -50,6 +50,14 @@ SENSORS: tuple[HeadscaleSensorEntityDescription, ...] = (
         device_class=SensorDeviceClass.TIMESTAMP,
         value_fn=lambda device: device.last_seen,
     ),
+    HeadscaleSensorEntityDescription(
+        key="user",
+        translation_key="user",
+        entity_category=EntityCategory.DIAGNOSTIC,
+        value_fn=lambda device: (
+            (device.user.display_name or device.user.name) if device.user else None
+        ),
+    ),
 )
 
 

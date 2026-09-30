@@ -31,3 +31,4 @@ This integration creates the following sensors for each Headscale node:
 - Last seen: Timestamp when the node was last active
 - Ip address: Internal Headscale IP address
 - Expiration date: Timestamp when the node will expire
+- User: Headscale user that owns the node
